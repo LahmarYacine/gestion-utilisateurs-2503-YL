@@ -68,6 +68,6 @@ La 1ère étape consiste à créer les différentes vues HTML/CSS nécessaire à
     - **utilisateurs.html** : Lister les différents utilisateurs dans un tableau (ajoutez-y 3 utilisateurs)
     - **roles-ajouter.html** : Formulaire pour créer un rôle
     - **utilisateurs-ajouter.html** : Formulaire pour créer un utilisateur
-    - **profil.html** : Afficher les détails d'un utilisateur (soyez créatif !)
+    - **profil.html** : Afficher les détails d'un utilisateur (soyez créatif !)..
 
 

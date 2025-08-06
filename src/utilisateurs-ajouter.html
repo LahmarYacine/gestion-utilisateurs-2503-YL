@@ -7,7 +7,17 @@
     <title> Utilisateurs ajoutées</title>
 </head>
 <body>
+  <header>
+    <img src="/gestion-utilisateurs-2503-YL/src/img/logo/CRM_logo-vertical.png" alt="logoCRM">
+    
+  </header>
+
+  
 <form action="/ma-page-de-traitement" method="post">
+
+  <fieldset>
+    <legend> Utilisateur a ajouter </legend>
+    
   
       <label for="name">Nom</label>
       <input type="text" id="name" name="name" />
@@ -24,14 +34,18 @@
         <option value="encadrant"> Encadrant </option>
         <option value="admin"> Administrateur </option>
       </select>
-   
-</form>
 
-    <button id="bouton" type="button">Envoyer</button>
+   </fieldset>
+</form>
+<div id="divbout">
+  <button id="bouton" type="button">Envoyer</button>
+</div>
+
+    
 
 </body>
 
-  <footer> 
+  <footer id="footUtil"> 
         <a href="/gestion-utilisateurs-2503-YL/src/index.html">Retour index</a>
     </footer>
     

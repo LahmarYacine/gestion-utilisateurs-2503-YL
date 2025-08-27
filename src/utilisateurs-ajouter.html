@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/gestion-utilisateurs-2503-YL/src/css/style.css">
+  <script src="/gestion-utilisateurs-2503-YL/src/js/main.js" defer></script>
   <title> Utilisateurs ajoutées</title>
 </head>
 
 <body>
   <header>
-    <img src="/gestion-utilisateurs-2503-YL/src/img/logo/CRM_logo-vertical.png" alt="logoCRM">
+    <img class="imghead" src="/gestion-utilisateurs-2503-YL/src/img/logo/CRM_logo-vertical.png" alt="logoCRM">
 
   </header>
 
@@ -21,12 +22,11 @@
       <legend> Utilisateur a ajouter </legend>
 
 
-      <label for="name">Nom</label>
-      <input type="text" id="name" name="name" />
+      <label for="name" >Nom</label>
+      <input type="text" id="name" name="name" >
 
       <label for="prenom">Prenom</label>
-      <input type="text" id="prenom" name="prenom" />
-
+      <input type="text" id="prenom" name="prenom" >
 
       <label for="mail">E-mail</label>
       <input type="email" id="mail" name="mail" />
@@ -38,16 +38,17 @@
       </select>
 
     </fieldset>
-  </form>
-  <div id="divbout">
+    <div id="divbout">
     <button id="bouton" type="button">Envoyer</button>
   </div>
 
-</body>
-
+  </form>
 <footer id="footUtil">
   <a id="retour" href="/gestion-utilisateurs-2503-YL/src/index.html">Retour index</a>
   <p id="copyright">Copyright © 2025 Lahmar Yacine. All rights reserved.</p>
 </footer>
+</body>
+
+
 
 </html>

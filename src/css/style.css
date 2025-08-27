@@ -13,17 +13,27 @@
 html {
     font-size: 62.5%;
 }
+
+img {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 body {
 
     width: 80rem;
     margin-left: 45rem;
     font-size: 2.0rem;
-    background-color: var(--color5); 
+    background-color: var(--color5);
 }
 
 p {
     font-size: large;
 }
+
 /* Index */
 
 h1 {
@@ -35,7 +45,11 @@ table {
     margin: 0 auto;
 }
 
-#name,#prenom,#mail,#caracteristique,#nom {
+#name,
+#prenom,
+#mail,
+#caracteristique,
+#nom {
     border: solid 2px var(--color2);
     width: 100%;
     height: 50px;
@@ -50,18 +64,20 @@ select {
 }
 
 legend {
-    
+
     border: solid 2px;
     border-radius: 8px;
     font-size: 30px;
 }
 
-th, legend{
+th,
+legend {
     background-color: var(--color1);
 }
 
 
-form,#divbout {
+form,
+#divbout {
     width: 50rem;
     margin: 0 auto;
 }
@@ -76,19 +92,27 @@ form,#divbout {
 
 }
 
-table,tr,td,th{
-    margin-top: 5rem;
-    border: solid 1px var(--color3);
+table,
+tr
+{
     width: 100rem;
     height: 10rem;
+    
 }
 
-td{
-    background-color:var(--color4);
+#thRole, #tdRole, #thUtilisateurs,#tdInv ,#tdUsager, #tdEncadrant, #tdAdmin{
+    margin-top: 1rem;
+    width: 2rem;
+    
+}
+
+td {
+    background-color: var(--color4);
     font-size: 2rem;
 }
+
 #bouton {
-    
+
     text-align: center;
     margin: 20px 20px 0px 0px;
     width: 50rem;
@@ -98,7 +122,7 @@ td{
     font-size: 2.5rem;
 }
 
-#retour{
+#retour {
     display: inline-block;
     padding: 20px 20px;
     background-color: var(--color2);
@@ -110,19 +134,19 @@ td{
 /* Footer */
 #footUtil {
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 
-/* fieldset {
+fieldset {
    
     
     width: 50rem;
-    height: 50rem;
+    height: 40rem;
     margin: auto 0;
     align-items: center;
     border-radius: 1.0rem;
     border: solid 2px var(--color2);
     background-color: var(--color1);
 
- } */
+ } 
